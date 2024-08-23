@@ -24,7 +24,7 @@
  </lead>
  <date>2024-08-23</date>
  <version>
-  <release>3.0.0alpha3</release>
+  <release>3.0.0alpha4</release>
   <api>3.0.0alpha1</api>
  </version>
  <stability>
@@ -33,8 +33,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1-only</license>
  <notes>
-* [rla] Consolidated with H5 master and fixed metadata for PHP 8.
-* |+
+* 
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -167,6 +166,41 @@
   </filelist>
  </phprelease>
  <changelog>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   <release>
    <version>
     <release>0.0.1</release>
@@ -716,11 +750,26 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2022-11-04</date>
-   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1-only</license>
+   <date>2024-08-23</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [rla] Consolidated with H5 master and fixed metadata for PHP 8.
 * |+
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.0alpha4</release>
+    <api>3.0.0alpha1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2024-08-23</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* 
    </notes>
   </release>
  </changelog>
