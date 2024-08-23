@@ -22,7 +22,7 @@
   <email>slusarz@horde.org</email>
   <active>no</active>
  </lead>
- <date>2022-11-04</date>
+ <date>2024-08-23</date>
  <version>
   <release>3.0.0alpha3</release>
   <api>3.0.0alpha1</api>
@@ -42,6 +42,7 @@
     <dir name="workflows">
      <file name="ci.yml" role="php" />
      <file name="phpdoc.yml" role="php" />
+     <file name="release.yml" role="php" />
      <file name="update-satis.yml" role="php" />
     </dir> <!-- /.github/workflows -->
    </dir> <!-- /.github -->
@@ -128,6 +129,7 @@
   <filelist>
    <install as="workflows/ci.yml" name=".github/workflows/ci.yml" />
    <install as="workflows/phpdoc.yml" name=".github/workflows/phpdoc.yml" />
+   <install as="workflows/release.yml" name=".github/workflows/release.yml" />
    <install as="workflows/update-satis.yml" name=".github/workflows/update-satis.yml" />
    <install as="CHANGES" name="doc/Horde/SessionHandler/CHANGES" />
    <install as="Horde/SessionHandler.php" name="lib/Horde/SessionHandler.php" />
@@ -714,7 +716,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2021-02-24</date>
+   <date>2022-11-04</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1-only</license>
    <notes>
 * [rla] Consolidated with H5 master and fixed metadata for PHP 8.
