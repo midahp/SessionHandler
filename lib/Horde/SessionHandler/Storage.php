@@ -131,4 +131,15 @@ abstract class Horde_SessionHandler_Storage
      */
     abstract public function getSessionIDs();
 
+    /**
+     * Validate a session id against the schema mentioned in the PHP manual page for session_id()
+     *
+     * @param string $id
+     * @return bool
+     */
+    protected function isValidSessionID(string $id): bool
+    {
+       return (preg_match('/^[A-Za-z0-9,-]{22,256}$/', $id) === 1);
+    }
+
 }
